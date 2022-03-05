@@ -3,9 +3,14 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
 h1 {
+  font-size: 50px;
   max-width: 800px;
-  margin: 50px auto 5px auto;
+  margin: 50px auto 30px auto;
 }
 
 main {
@@ -16,7 +21,7 @@ main {
 }
 
 .show-scor {
-  width: 50%;
+  width: 60%;
 }
 
 .title-btn {
@@ -25,35 +30,58 @@ main {
 }
 
 .title-btn button {
-  margin-left: 80px;
+  margin-left: 156px;
+  padding: 3px 10px;
+  font-weight: 800;
+  background-color: #fff;
+  border: 3px solid #000;
+  cursor: pointer;
 }
 
 .scor-list {
-  border: 1px solid black;
-  max-width: 350px;
+  border: 3px solid black;
+  max-width: 400px;
   margin: 10px 0;
 }
 
 .scor-list li {
   list-style: none;
-  margin-left: 5px;
+  margin: 3px 5px;
+  display: flex;
+  padding: 5px 15px;
+  justify-content: space-between;
+}
+
+.scor-list li:nth-child(odd) {
+  background: lightgrey;
 }
 
 .add-scor-form {
-  width: 50%;
+  width: 40%;
   align-items: center;
 }
 
 .add-name {
+  border: 3px solid black;
   margin-top: 10px;
   padding: 5px;
 }
 
 .add-score {
+  border: 3px solid black;
   margin: 10px 0;
   padding: 5px;
 }
 
 .sub {
-  margin-left: 136px;
+  margin-left: 108px;
+  padding: 3px 10px;
+  font-weight: 800;
+  background-color: #fff;
+  border: 3px solid #000;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
 }
