@@ -1,4 +1,7 @@
+/* eslint-disable no-unused-vars */
 import './style.css';
+import footer from './images/footer.png';
+import header from './images/header.png';
 import populateList from './modules/popList.js';
 
 const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
