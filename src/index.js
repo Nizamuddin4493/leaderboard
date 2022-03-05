@@ -63,8 +63,4 @@ window.addEventListener('load', () => {
       scoreInput.value = '';
     }
   });
-
-  document.querySelector('button[value="Refresh"]').addEventListener('click', () => {
-    getScoreList();
-  });
 });
