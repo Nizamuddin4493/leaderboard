@@ -1,13 +1,13 @@
 # ToDo List / Daily Tasks
 
-> This is The Project of To Do List / Daily Tasks build in JavaScript with using the webpack Plugins. In this site a user can write his/her daily task, delete one or more tasks at a time, and can refrash all the task from To Do list.
+> This is The Project of Leader Board build in JavaScript with using the webpack Plugins. In this site a user can Store S/he name and Score S/he achieved.
 
-![screenshot](src/images/Todo-List-img.png)
+![screenshot](src/images/leaderboard_wireframe.png)
 
-Additional description: This project is only built with Html and CSS  and JavaScript.
+Additional description: This project is only built with Html and CSS  and JavaScript APIs.
 
 ## Live Link to this site.
-[ES6-Todo List](https://nizamuddin4493.github.io/toDoList/dist/index.html).
+[ES6-Todo List]().
 
 ## Built With
 
@@ -17,14 +17,15 @@ Additional description: This project is only built with Html and CSS  and JavaSc
 - WebPack
 - ES6 Modules
 - Babel
+- APIs
 
 ## Getting Started
 
-This is The Project of To Do List / Daily Tasks build in JavaScript with using the webpack Plugins. In this site a user can write his/her daily task, delete one or more tasks at a time, and can refrash all the task from To Do list.
+This is The Project of Leader Board build in JavaScript with using the webpack Plugins. In this site a user can Store S/he name and Score S/he achieved.
 
 ## Run the Project Locally
 - To Clone the Project Locally Please click the following link.
-- [ES6-toDoList](https://github.com/Nizamuddin4493/ES6-toDoList)
+- [LeaderBoard](https://github.com/Nizamuddin4493/leaderboard)
 - Then click on Green Code button
 - Copy the SSH link and clone it Locally through your Code Editor's terminal.
 - To run the project in you browser, Please run the " npm install " command in the code editer terminal.
