@@ -1,8 +1,59 @@
-.hello {
-  color: red;
-  background: url('./icon.png');
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.qw {
-  color: green;
+h1 {
+  max-width: 900px;
+  margin: 50px auto 5px auto;
+}
+
+main {
+  max-width: 900px;
+  margin: 5px auto 10px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.show-scor {
+  width: 50%;
+}
+
+.title-btn {
+  display: flex;
+  width: auto;
+}
+
+.title-btn button {
+  margin-left: 80px;
+}
+
+.scor-list {
+  border: 1px solid black;
+  max-width: 350px;
+  margin: 10px 0;
+}
+
+.scor-list li {
+  list-style: none;
+  margin-left: 5px;
+}
+
+.add-scor-form {
+  width: 50%;
+  align-items: center;
+}
+
+.add-name {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.add-score {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.sub {
+  margin-left: 136px;
 }
